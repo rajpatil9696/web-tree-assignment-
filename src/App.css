@@ -1,0 +1,28 @@
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-div{
+  display: flex;
+  border: black 2px solid ;
+  height: 334px;
+  width: 624px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 200px;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+p{
+  font-size: large;
+  font-weight: 400;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.info{
+  display: flex;
+  gap: 10px;
+}
+.image{
+  border: black solid ;
+}
